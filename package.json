@@ -1,0 +1,32 @@
+{
+  "name": "metoo",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "latest",
+    "connect": "^3.5.0",
+    "express": "latest",
+    "express-session": "^1.14.2",
+    "express3-handlebars": "latest",
+    "mongodb": "^2.2.11",
+    "mongoose": "latest",
+    "nodemailer": "^2.6.4",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "description": "metoo web application",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkinDharawat/Metoo.git"
+  },
+  "author": "arkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArkinDharawat/Metoo/issues"
+  },
+  "homepage": "https://github.com/ArkinDharawat/Metoo#readme"
+}
