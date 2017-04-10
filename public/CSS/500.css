@@ -1,0 +1,53 @@
+html{
+    background-color: #fff;
+    color: #585858;
+    font-family: "Montserrat",Arial,Lato;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    }
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+*{
+    font-family:"Montserrat",Arial;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.82)),url(Images%20for%20CSS/IMG_5837.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 0.5%;
+  min-height: 500px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", Arial;
+
+}
+.Plswork {
+    font-size: 500%;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 360px) {
+    .Plswork {
+        font-size: 600%;
+        line-height: 1.3;
+        font-weight: bold;
+    }
+}
+
+.hero h2 {
+  font-size: 150%;
+  line-height: 1.3;
+
+
+
+}
